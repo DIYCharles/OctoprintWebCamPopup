@@ -61,15 +61,17 @@ I used the guide [here](https://www.groovypost.com/howto/howto/windows-programs-
 
 1. Install Autohotkey [here](https://www.autohotkey.com/)
 2. Make a new txt doc by right clicking your desktop>new>text document
-3. Rename it ontop.ahk
+3. Rename it ```ontop.ahk```
 4. Confirm change of file type extension
 5. Right click the file ontop.ahk and edit.
-6. Add paste this in the file.``` ^SPACE::  Winset, Alwaysontop, , A ```
+6. Paste this in the file.
+   ```^SPACE::  Winset, Alwaysontop, , A```
 7. Save it
-8. Copy the file to ```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```
-9. Restart your pc
+8. Copy the file to
+```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```
+9.  Restart your pc
 10. Open the webcam stream popup window
-11. Type Ctrl+SPacebar
+11. Type Ctrl+Spacebar
 
 The page should now persist on top and allow you to use the window actively underneath
 
