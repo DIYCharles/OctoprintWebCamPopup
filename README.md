@@ -1,5 +1,4 @@
 # Octoprint Webcam Popup
-=========
 
 This is a simple html webpage that lets you open the webcam stream as a popup without toolbars. 
 
