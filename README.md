@@ -1,8 +1,10 @@
 # Octoprint Webcam Popup
 
-This is a simple html webpage that lets you open the webcam stream as a popup without toolbars. 
+This is a simple html webpage that lets you open the webcam stream as a popup without toolbars. You can also set this window to persist on top so you can monnitor your print while working in other windows. 
 
 <img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/2.JPG" alt="drawing" width="80%"/>
+<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/5.JPG" alt="drawing" width="80%"/>
+
 
 Table of contents
 =================
