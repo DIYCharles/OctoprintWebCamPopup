@@ -2,8 +2,8 @@
 
 This is a simple html webpage that lets you open the webcam stream as a popup without toolbars. You can also set this window to persist on top so you can monnitor your print while working in other windows. 
 
-<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/2.JPG" alt="drawing" width="80%"/>
-<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/5.JPG" alt="drawing" width="80%"/>
+<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/2.JPG" alt="drawing" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/5.JPG" alt="drawing" style="display: block; margin-left: auto; margin-right: auto; width: 80%;"/>
 
 
 Table of contents
@@ -12,6 +12,7 @@ Table of contents
 <!--ts-->
    * [Reason](#Reason)
    * [How To Use](#How-To-Use)
+   * [How To Make The Page Persist On Top](#how-to-make-the-page-persist-on-top)
 <!--te-->
 
 Reason
@@ -19,10 +20,8 @@ Reason
 
 There are a couple issues I have with the octoprint webcam stream. From the UI you can't really open it full screen well and If you zoom in it will also be super zoomed in when you return to octoprint. 
 
-There is a webcam url you can use but it has the same problems listed above. Additionally it uses large borders and it does not scale when you resize the window. Additionally it has all the chrome toolbars that stay pinned to the top of the window taking up lots of space. 
-<div style="align: center">
-    <img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/1.JPG" alt="drawing" width="80%"/>
-<div/>
+There is a webcam url you can use but it has the same problems listed above. Additionally it uses large borders and it does not scale when you resize the window. Additionally it has all the chrome toolbars that stay pinned to the top of the window taking up lots of space.
+    <img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/1.JPG" alt="drawing" style="display: block; margin-left: auto; margin-right: auto; width: 80%;"/>
 
 Also if you were to make the page persist on top there is too thick of borders to be a less intrusive overlay. 
 
@@ -64,11 +63,9 @@ I used the guide [here](https://www.groovypost.com/howto/howto/windows-programs-
 3. Rename it ```ontop.ahk```
 4. Confirm change of file type extension
 5. Right click the file ontop.ahk and edit.
-6. Paste this in the file.
-   ```^SPACE::  Winset, Alwaysontop, , A```
+6. Paste this in the file. ```^SPACE::  Winset, Alwaysontop, , A```
 7. Save it
-8. Copy the file to
-```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```
+8. Copy the file to ```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```
 9.  Restart your pc
 10. Open the webcam stream popup window
 11. Type Ctrl+Spacebar
