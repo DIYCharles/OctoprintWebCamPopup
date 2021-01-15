@@ -56,19 +56,10 @@ Thats it!
 How To Make The Page Persist On Top
 ============
 
-I used the guide [here](https://www.groovypost.com/howto/howto/windows-programs-always-on-top/#:~:text=To%20make%20the%20active%20window,top%E2%80%9D%20for%20the%20active%20window.)
-
-1. Install Autohotkey [here](https://www.autohotkey.com/)
-2. Make a new txt doc by right clicking your desktop>new>text document
-3. Rename it ```ontop.ahk```
-4. Confirm change of file type extension
-5. Right click the file ontop.ahk and edit.
-6. Paste this in the file. ```^SPACE::  Winset, Alwaysontop, , A```
-7. Save it
-8. Copy the file to ```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```
-9.  Restart your pc
-10. Open the webcam stream popup window
-11. Type Ctrl+Spacebar
+1. Download StayOnTop.exe from this repo 
+2. Run the .exe
+3. Open the webcam stream popup window and click on the top taskbar for the window to make sure it is the selected active window 
+4. Type Ctrl+Spacebar
 
 The page should now persist on top and allow you to use the window actively underneath
 
