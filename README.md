@@ -56,6 +56,10 @@ Thats it!
 How To Make The Page Persist On Top
 ============
 
+#### **[An In depth guide for this can be found in my other repo StayOnTop](https://github.com/DIYCharles/StayOnTop)**
+
+Here is a quick overview of the steps
+
 1. Download StayOnTop.exe from this repo 
 2. Run the .exe
 3. Open the webcam stream popup window and click on the top taskbar for the window to make sure it is the selected active window 
@@ -63,4 +67,4 @@ How To Make The Page Persist On Top
 
 The page should now persist on top and allow you to use the window actively underneath
 
-To stop always on top either exit the oage or go to your tray in the taskbar and right click on the H and select pause script.
+To stop always on top click ctrl+spacebar again, exit the page, or go to your tray in the taskbar and right click on the atom icon and select pause script.
