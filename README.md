@@ -24,6 +24,8 @@ There is a webcam url you can use but it has the same problems listed above. Add
     <img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/1.JPG" alt="drawing" width="80%"/>
 <div/>
 
+Also if you were to make the page persist on top there is too thick of borders to be a less intrusive overlay. 
+
 
 
 How To Use
@@ -52,3 +54,23 @@ How To Use
 
 Thats it!
 
+How To Make The Page Persist On Top
+============
+
+I used the guide [here](https://www.groovypost.com/howto/howto/windows-programs-always-on-top/#:~:text=To%20make%20the%20active%20window,top%E2%80%9D%20for%20the%20active%20window.)
+
+1. Install Autohotkey [here](https://www.autohotkey.com/)
+2. Make a new txt doc by right clicking your desktop>new>text document
+3. Rename it ontop.ahk
+4. Confirm change of file type extension
+5. Right click the file ontop.ahk and edit.
+6. Add paste this in the file.``` ^SPACE::  Winset, Alwaysontop, , A ```
+7. Save it
+8. Copy the file to ```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```
+9. Restart your pc
+10. Open the webcam stream popup window
+11. Type Ctrl+SPacebar
+
+The page should now persist on top and allow you to use the window actively underneath
+
+To stop always on top either exit the oage or go to your tray in the taskbar and right click on the H and select pause script.
