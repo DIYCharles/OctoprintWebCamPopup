@@ -28,6 +28,7 @@ Also if you were to make the page persist on top there is too thick of borders t
 
 NEW How To Use Chrome App Mode
 ============
+
 The App mode has a much smaller window with no address bar as you can see here <img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/6.JPG" alt="" width="50%"/>
 
 1. Download the [octoprintwebcamNoButton.html](https://github.com/DIYCharles/OctoprintWebCamPopup/blob/main/octoprintwebcamNoButton.html) and [octoprintwebcamAppMode.bat](https://github.com/DIYCharles/OctoprintWebCamPopup/blob/main/octoprintwebcamAppMode.bat)
