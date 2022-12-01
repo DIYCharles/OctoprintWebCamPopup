@@ -11,7 +11,7 @@ Table of contents
 
 <!--ts-->
    * [Reason](#Reason)
-   * [NEW! How To Use Chrome App Mode](#NEW!-How-To-Use-New-Chrome-App-Mode)
+   * [NEW How To Use Chrome App Mode](#NEW-How-To-Use-New-Chrome-App-Mode)
    * [How To Use](#How-To-Use)
    * [How To Make The Page Persist On Top](#how-to-make-the-page-persist-on-top)
 <!--te-->
@@ -26,7 +26,7 @@ There is a webcam url you can use but it has the same problems listed above. Add
 
 Also if you were to make the page persist on top there is too thick of borders to be a less intrusive overlay. 
 
-NEW! How To Use Chrome App Mode
+NEW How To Use Chrome App Mode
 ============
 The App mode has a much smaller window with no address bar as you can see here <img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/6.JPG" alt="" width="50%"/>
 
