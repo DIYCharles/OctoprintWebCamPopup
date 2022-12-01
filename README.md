@@ -11,7 +11,7 @@ Table of contents
 
 <!--ts-->
    * [Reason](#Reason)
-   * [NEW How To Use Chrome App Mode](#NEW-How-To-Use-New-Chrome-App-Mode)
+   * [NEW How To Use Chrome App Mode](#NEW-How-To-Use-Chrome-App-Mode)
    * [How To Use](#How-To-Use)
    * [How To Make The Page Persist On Top](#how-to-make-the-page-persist-on-top)
 <!--te-->
