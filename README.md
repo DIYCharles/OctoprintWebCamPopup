@@ -12,7 +12,7 @@ Table of contents
 <!--ts-->
    * [Reason](#Reason)
    * [NEW How To Use Chrome App Mode](#NEW-How-To-Use-Chrome-App-Mode)
-   * [How To Use](#How-To-Use)
+   * [OLD How To Use](#OLD-How-To-Use)
    * [How To Make The Page Persist On Top](#how-to-make-the-page-persist-on-top)
 <!--te-->
 
@@ -50,7 +50,7 @@ start chrome.exe -app=file:///C:/DEV/Repo/OctoprintWebCamPopup/octoprintwebcamNo
 
 Thats it!
 
-How To Use
+OLD How To Use
 ============
 
 1. Download the [octoprintwebcam.html](https://github.com/DIYCharles/OctoprintWebCamPopup/blob/main/octoprintwebcam.html)
