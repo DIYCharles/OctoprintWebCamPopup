@@ -1,9 +1,9 @@
 # Octoprint Webcam Popup
 
-This is a simple html webpage that lets you open the webcam stream as a popup without toolbars. You can also set this window to persist on top so you can monnitor your print while working in other windows. 
+This is a simple html webpage that lets you open the webcam stream as a popup without toolbars. You can also set this window to persist on top so you can monitor your print while working in other windows. 
 
-<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/2.JPG" alt="drawing" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
-<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/5.JPG" alt="drawing" style="display: block; margin-left: auto; margin-right: auto; width: 80%;"/>
+<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/8.JPG" alt="drawing" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+<img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/7.JPG" alt="drawing" style="display: block; margin-left: auto; margin-right: auto; width: 80%;"/>
 
 
 Table of contents
@@ -11,6 +11,7 @@ Table of contents
 
 <!--ts-->
    * [Reason](#Reason)
+   * [NEW! How To Use Chrome App Mode](#NEW!-How-To-Use-New-Chrome-App-Mode)
    * [How To Use](#How-To-Use)
    * [How To Make The Page Persist On Top](#how-to-make-the-page-persist-on-top)
 <!--te-->
@@ -25,7 +26,28 @@ There is a webcam url you can use but it has the same problems listed above. Add
 
 Also if you were to make the page persist on top there is too thick of borders to be a less intrusive overlay. 
 
+NEW! How To Use Chrome App Mode
+============
+The App mode has a much smaller window with no address bar as you can see here <img src="https://raw.githubusercontent.com/DIYCharles/OctoprintWebCamPopup/main/photos/6.JPG" alt="" width="50%"/>
 
+1. Download the [octoprintwebcamNoButton.html](https://github.com/DIYCharles/OctoprintWebCamPopup/blob/main/octoprintwebcamNoButton.html) and [octoprintwebcamAppMode.bat](https://github.com/DIYCharles/OctoprintWebCamPopup/blob/main/octoprintwebcamAppMode.bat)
+
+2. Open octoprintwebcamNoButton.html in a text editor change the IP address to match your printer here
+```html
+    <div>
+        <img style="-webkit-user-select: none;margin: auto; height: 100%" src="http://172.16.0.6/webcam/?action=stream">
+    </div>
+```
+
+3. Open octoprintwebcamAppMode.bat in a text editor Change the path to match the location of where you installed the octoprintwebcamNoButton.html
+```bat
+start chrome.exe -app=file:///C:/DEV/Repo/OctoprintWebCamPopup/octoprintwebcamNoButton.html
+```
+4. After saving both, open file explorer and double click octoprintwebcamAppMode.bat to run it.
+5. You can resize your window to whatever you want.
+6. If you want the window to stay open even if you click behind it follow [How To Make The Page Persist On Top](#how-to-make-the-page-persist-on-top) at the bottom of this page.
+
+Thats it!
 
 How To Use
 ============
@@ -68,3 +90,11 @@ Here is a quick overview of the steps
 The page should now persist on top and allow you to use the window actively underneath
 
 To stop always on top click ctrl+spacebar again, exit the page, or go to your tray in the taskbar and right click on the atom icon and select pause script.
+
+### Optional How To Make StayOnTop Run On Startup
+
+You will need to run the StayOnTop.exe every time you restart your computer. If your would like for it to automatically run on start follow these steps.
+1. Copy the StayOnTop.exe or a shortcut to StayOnTop.exe to ```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```
+2. Restart your pc
+3. You should see the Atom icon in your system tray in the taskbar after startup
+4. Activate anytime by going to the window you want to keep on top and pressing Ctrl+Spacebar 

@@ -1,25 +1,22 @@
 <html style="height: 100%;">
-
-<head>
-    <meta name="viewport" content="width=device-width, minimum-scale=0.1">
-</head>
-
-<body style="margin: 0px; background: #0e0e0e; height: 100%">
-    <div style="height: 90%"">
-        <p style="text-align: center">
-        <img style="-webkit-user-select: none;margin: auto; height: 100%" src="http://10.0.0.5/webcam/?action=stream">
-    </p>
-    </div>
-    <button style="height: 10%; width: 100%; text-align: center; background-color:#01afff; border-color: #ff0101; border-width: 5; " onclick="openTheWindow()">open window</button>
-</body>
-
-<script>
-    function openTheWindow() {
-        var myWindow = window.open("file:///C:/DEV/Repo/OctoprintWebCamPopup/octoprintwebcam.html","_blank",
-    "toolbar,scrollbars,resizable,top=500,left=500");
-    }
-</script>
-
+	<head>
+		<title>OctoprintWebCamPopup</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=0.1">
+	</head>
+	<body style="margin: 0px; background: #0e0e0e; height: 100%">
+		<div style="height: 100%"">
+			<p style="text-align: center">
+			<img style="-webkit-user-select: none;margin: auto; height: 100%" src="http://10.0.0.7/webcam/?action=stream">
+		</p>
+		</div>
+		<button style="height: 10%; width: 100%; text-align: center; background-color:#01afff; border-color: #ff0101; border-width: 5; " onclick="openTheWindow()">open window</button>
+	</body>
+	<script>
+		function openTheWindow() {
+			var myWindow = window.open("file:///C:/DEV/Repo/OctoprintWebCamPopup/octoprintwebcam.html","_blank",
+			"toolbar,scrollbars,resizable,top=500,left=500");
+		}
+	</script>
 </html>
 
 
