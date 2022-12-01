@@ -44,7 +44,7 @@ The App mode has a much smaller window with no address bar as you can see here <
 ```bat
 start chrome.exe -app=file:///C:/DEV/Repo/OctoprintWebCamPopup/octoprintwebcamNoButton.html
 ```
-4. After saving both, open file explorer and double click octoprintwebcamAppMode.bat to run it.
+4. After saving both, open file explorer and double click octoprintwebcamAppMode.bat to run it. Alternatively you can right click on the .bat file and select create shortcut so you can put it on your home screen.
 5. You can resize your window to whatever you want.
 6. If you want the window to stay open even if you click behind it follow [How To Make The Page Persist On Top](#how-to-make-the-page-persist-on-top) at the bottom of this page.
 
